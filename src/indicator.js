@@ -13,7 +13,7 @@ const WarpToggle = GObject.registerClass(
   class WarpToggle extends QuickToggle {
     _init() {
       super._init({
-        label: 'WARP',
+        title: 'WARP',
         gicon: icon,
       })
 
